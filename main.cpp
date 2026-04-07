@@ -75,7 +75,11 @@ void solve() {
             }
         }
 
-        cout << min_dist << "\n";
+        if (min_dist == INF) {
+            cout << 0 << "\n";
+        } else {
+            cout << min_dist << "\n";
+        }
     }
 }
 
